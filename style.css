@@ -98,23 +98,22 @@ background:black;
 }
 
 .skill{
+width:60%;
 margin:20px auto;
-width:70%;
 text-align:left;
 }
 
-.bar{
+.progress{
 background:#1e293b;
+height:10px;
 border-radius:20px;
 overflow:hidden;
 }
 
-.bar span{
-display:block;
+.progress-bar{
 height:10px;
 background:#38bdf8;
 }
-
 
 .btn{
 display:inline-block;
@@ -122,8 +121,8 @@ margin:10px;
 padding:12px 25px;
 background:#38bdf8;
 color:black;
-text-decoration:none;
 border-radius:6px;
+text-decoration:none;
 font-weight:bold;
 }
 
@@ -131,3 +130,6 @@ font-weight:bold;
 background:#0ea5e9;
 }
 
+html{
+scroll-behavior:smooth;
+}
