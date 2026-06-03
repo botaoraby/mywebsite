@@ -1,6 +1,6 @@
 function downloadCV(){
 
-window.open("cv.pdf");
+window.open("Sayed_Oraby_IT_Manager_CV.pdf");
 
 }
 const canvas = document.getElementById("matrix");
